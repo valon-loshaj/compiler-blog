@@ -15,11 +15,11 @@ const BlogPostCard: React.FC<BlogPostCardProps> = ({
 	blogDir,
 }) => {
 	return (
-		<Link className={styles.card} href={`/${blogDir}`}>
+		<a className={styles.card} href={`/${blogDir}`}>
 			<h2>{title}</h2>
 			<p>{publishDate}</p>
 			<p>{subtitle}</p>
-		</Link>
+		</a>
 	);
 };
 
