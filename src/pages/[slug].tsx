@@ -10,6 +10,13 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
 		const response = await fetch(
 			`https://raw.githubusercontent.com/valon-loshaj/blog-posts/main/posts/${slug}.md`
 		);
+
+		// Check if the response was successful
+		if (!response.ok) {
+			// If the response was not ok (like a 404 status), return notFound: true
+			return { notFound: true };
+		}
+
 		const content = await response.text();
 
 		return {
@@ -20,14 +27,8 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
 	} catch (error) {
 		console.error("Failed to fetch the post content:", error);
 
-		// If there's an error, you can return notFound: true to render a 404 page,
-		// or redirect: { destination: '/some-redirect' } to redirect the user.
-		// Here we'll just return empty content.
-		return {
-			props: {
-				content: "",
-			},
-		};
+		// If there's an error, return notFound: true to render a 404 page
+		return { notFound: true };
 	}
 };
 
