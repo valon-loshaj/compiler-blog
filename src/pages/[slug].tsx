@@ -34,10 +34,10 @@ interface BlogPostProps {
 
 export default function BlogPost({ content }: BlogPostProps) {
 	return (
-		<RootLayout>
-			<div className={styles.main}>
-				<ReactMarkdown>{content}</ReactMarkdown>
-			</div>
-		</RootLayout>
+		// <RootLayout>
+		<div className={styles.main}>
+			<ReactMarkdown>{content}</ReactMarkdown>
+		</div>
+		// </RootLayout>
 	);
 }
