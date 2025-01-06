@@ -1,6 +1,8 @@
-# Getting 'Unconfused' on React with TypeScript
-
-2024-01-31
+---
+title: "Getting 'Unconfused' on React with TypeScript"
+date: "2024-01-31"
+subtitle: "A practical guide to React and TypeScript integration"
+---
 
 Today I worked on a number of things related to React. Many of which were great refreshers which have gone stale in my brain. There were also some new gotchas related to React-18, specifically the experimental new render approach. As I'm trying to get a mental model around each aspect of React, specifically when used along with TypeScript, I've decided to write this post in order to help 'compile' the different concepts.
 

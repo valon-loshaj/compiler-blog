@@ -2,25 +2,25 @@ import Link from "next/link";
 import styles from "../styles/Home.module.css";
 
 interface BlogPostCardProps {
+	slug: string;
 	title: string;
 	subtitle: string;
 	publishDate: string;
 	blogDir: string;
 }
 
-const BlogPostCard: React.FC<BlogPostCardProps> = ({
-	title,
-	publishDate,
-	subtitle,
-	blogDir,
-}) => {
+export function BlogPostCard({ slug, title, ...props }: BlogPostCardProps) {
 	return (
-		<a className={styles.card} href={`/${blogDir}`}>
+		<Link 
+			href={`/posts/${slug}`} 
+			prefetch={true}
+			className={styles.card}
+		>
 			<h2>{title}</h2>
-			<p>{publishDate}</p>
-			<p>{subtitle}</p>
-		</a>
+			<p>{props.publishDate}</p>
+			<p>{props.subtitle}</p>
+		</Link>
 	);
-};
+}
 
 export default BlogPostCard;

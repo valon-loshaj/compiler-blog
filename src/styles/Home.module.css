@@ -76,10 +76,9 @@
 }
 
 .card {
-	padding: 1rem 1.2rem;
+	padding: 1rem;
+	margin-bottom: 1.5rem;
 	border-radius: var(--border-radius);
-	background: rgba(var(--card-rgb), 0);
-	border: 1px solid rgba(var(--card-border-rgb), 0);
 	transition: background 200ms, border 200ms;
 }
 
@@ -89,17 +88,15 @@
 }
 
 .card h2 {
-	font-weight: 600;
-	margin-bottom: 0.7rem;
+	color: #fff;
+	margin-bottom: 0.5rem;
+	font-size: 1.5rem;
 }
 
 .card p {
+	color: #bdc3c7;
 	margin: 0;
-	opacity: 0.6;
 	font-size: 0.9rem;
-	line-height: 1.5;
-	max-width: 30ch;
-	text-wrap: balance;
 }
 
 .center {
@@ -136,6 +133,13 @@
 
 .blogHeadline {
 	text-align: left;
+	color: #fff;
+	font-size: 2.5rem;
+	font-weight: 600;
+	margin-bottom: 1.5rem;
+	background: linear-gradient(to right, #646cff, #9499ff);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .logo {
@@ -144,8 +148,7 @@
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
 	.card:hover {
-		background: rgba(var(--card-rgb), 0.1);
-		border: 1px solid rgba(var(--card-border-rgb), 0.15);
+		background: rgba(255, 255, 255, 0.1);
 	}
 
 	.card:hover span {
