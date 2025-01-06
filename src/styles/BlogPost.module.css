@@ -1,0 +1,131 @@
+.blogPost {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  color: #bdc3c7;
+}
+
+.blogPost h1 {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  background: linear-gradient(to right, #646cff, #9499ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.date {
+  color: #8b949e;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #a8b2d1;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.content {
+  line-height: 1.8;
+}
+
+.content h2 {
+  color: #fff;
+  font-size: 1.8rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1.2rem;
+  font-weight: 600;
+}
+
+.content h3 {
+  color: #fff;
+  font-size: 1.4rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.content p {
+  margin-bottom: 1.5rem;
+}
+
+.content a {
+  color: #646cff;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.content a:hover {
+  color: #9499ff;
+}
+
+.content pre {
+  background: #1a1a1a;
+  padding: 1.25rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin: 1.5rem 0;
+  border: 1px solid #333;
+}
+
+.content code {
+  font-family: 'Fira Code', monospace;
+  font-size: 0.9em;
+  color: #e2e8f0;
+}
+
+.content ul, .content ol {
+  margin: 1.5rem 0;
+  padding-left: 1.5rem;
+}
+
+.content li {
+  margin-bottom: 0.5rem;
+}
+
+.content blockquote {
+  border-left: 4px solid #646cff;
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+  color: #8b949e;
+}
+
+.content :not(pre) > code {
+  background: #2a2a2a;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-size: 0.9em;
+  color: #c9d1d9;
+}
+
+.content code,
+.content pre {
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+  color: #e2e8f0;
+}
+
+.nav {
+  padding: 1rem 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.homeLink {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-decoration: none;
+  background: linear-gradient(to right, #646cff, #9499ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: opacity 0.2s ease;
+}
+
+.homeLink:hover {
+  opacity: 0.8;
+} 

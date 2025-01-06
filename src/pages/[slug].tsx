@@ -2,7 +2,6 @@ import { GetServerSideProps } from "next";
 import fs from "fs";
 import path from "path";
 import ReactMarkdown from "react-markdown";
-import RootLayout from "../components/layout";
 import styles from "../styles/Home.module.css";
 
 export const getServerSideProps: GetServerSideProps = async (context) => {
@@ -34,10 +33,8 @@ interface BlogPostProps {
 
 export default function BlogPost({ content }: BlogPostProps) {
 	return (
-		// <RootLayout>
 		<div className={styles.main}>
 			<ReactMarkdown>{content}</ReactMarkdown>
 		</div>
-		// </RootLayout>
 	);
 }

@@ -1,4 +1,8 @@
-# React, Redux and TypeScript...how do they all come together?
+---
+title: "React, Redux and TypeScript...how do they all come together?"
+date: "2024-01-06"
+subtitle: "Exploring the integration of React, Redux, and TypeScript"
+---
 
 This week I worked on a small project which helped deepen my understanding of Redux, specifically how it works together with React and TypeScript. The application I built was pretty simple, it basically uses the public npm registry to query for packages based on a query parameter within the url ("https://registry.npmjs.org/-/v1/search?text=react"). The application takes the response from the API and lists out the packages which match the search term provided. This project felt like a pretty straight forward, yet common use case for a lot of organizations. In my experience developing web applications one of the most common use cases involves calling out to an API, receiving a response and then processing the data within that response. Some of the biggest pain points are around maintaining a consistent version of that state and wiring up all of your components to that state tree in a simple and consistent way. What I was mainly trying to get out of this project was a better understanding of Redux overall, along with how it works together with TypeScript, and honestly I think that this is a great introductory project for anyone trying to understand how React, TypeScript and Redux work together.
 
