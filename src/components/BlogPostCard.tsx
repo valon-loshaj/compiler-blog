@@ -6,7 +6,6 @@ interface BlogPostCardProps {
 	title: string;
 	subtitle: string;
 	publishDate: string;
-	blogDir: string;
 }
 
 export function BlogPostCard({ slug, title, ...props }: BlogPostCardProps) {
