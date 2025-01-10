@@ -14,6 +14,12 @@ export default function Home() {
 					I find interesting.
 				</p>
 				<BlogPostCard
+					slug='building-utter-sense-week-1'
+					title='Building utter-sense: A Week of RAG Pipeline Adventures in Salesforce'
+					subtitle='Exploring RAG pipelines & Salesforce AI Capabilities to Build a Smart Call Center Assistant'
+					publishDate='2024-01-10'
+				></BlogPostCard>
+				<BlogPostCard
 					slug='the-art-of-shipping-things'
 					title='The Art of Shipping Software Projects'
 					subtitle='A guide to shipping software projects effectively'
