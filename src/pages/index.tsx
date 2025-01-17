@@ -14,6 +14,12 @@ export default function Home() {
 					I find interesting.
 				</p>
 				<BlogPostCard
+					slug='the-llm-first-sldc-part-1'
+					title='The LLM First SDLC - Part 1: A New Approach to Problem Identification'
+					subtitle='Rethinking how we find, analyze and prioritize problems to solve.'
+					publishDate='2024-01-17'
+				></BlogPostCard>
+				<BlogPostCard
 					slug='building-utter-sense-week-1'
 					title='Building utter-sense: A Week of RAG Pipeline Adventures in Salesforce'
 					subtitle='Exploring RAG pipelines & Salesforce AI Capabilities to Build a Smart Call Center Assistant'
