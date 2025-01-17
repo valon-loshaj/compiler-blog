@@ -8,7 +8,7 @@ subtitle: "Rethinking how we find, analyze and prioritize problems to solve."
 
 I was listening to an episode of [The Changelog Podcast](https://changelog.com/) and they were going over the results of a developer survey. There was a stat that came out of the survey's respondents - something like 75% of developers are now using generative AI in their daily workflow. That's huge. But here's what's been nagging at me: are we really making the most of these tools? Right now it feels like we're just sprinkling generative AI on top of our existing processes - like adding sprinkles to vanilla ice cream and calling it a day.
 
-What if we took a step back and approached this differently? Instead of treating LLMs as just another tool in our toolkit, what if we made them first-class citizens in our software development process end to end? In this post, I'm been particularly interested in how this might reshape one of the most critical parts of the software development lifecycle - identifying the actual problem we're trying to solve.
+What if we took a step back and approached this differently? Instead of treating LLMs as just another tool in our toolkit, what if we made them first-class citizens in our software development process end to end? In this post, I'm particularly interested in how this might reshape one of the most critical parts of the software development lifecycle - identifying the actual problem we're trying to solve.
 
 Let me walk you through a real-world example to show what I mean. Picture a large retail company's contact center where agents are struggling to access customer order history during calls...
 
@@ -23,7 +23,7 @@ Here's what I typically look for when trying to understand a problem:
 - What's the opportunity cost of solving this versus other problems?
 - How does this align with our broader organizational goals?
 
-In the traditional approach, answering these questions usually involves a lot of meetings, emails, document diving, and probably a fair amount of Slack messages. I've sat through countless requirements gathering sessions where we spend hours trying to piece together the full picture, often realizing halfway through that we're missing critical context or key stakeholders..
+In the traditional approach, answering these questions usually involves a lot of meetings, emails, document diving, and probably a fair amount of Slack messages. I've sat through countless requirements gathering sessions where we spend hours trying to piece together the full picture, often realizing halfway through that we're missing critical context or key stakeholders.
 
 And here's the kicker - even after all that effort, we sometimes still miss important details. I can't count the number of times I've been knee-deep in coding a solution, only to discover some crucial piece of information that would have completely changed our approach if we'd known about it earlier.
 
@@ -54,14 +54,11 @@ The key difference is that we're not just using the LLM to help answer our quest
 
 This might sound pessimistic, but I've found it actually keeps my mind in a state of discovery and curiosity. The moment my inside voice says "well that's all there is to know about this feature" things tend to go downhill pretty quickly. Sure, "curiosity killed the cat" might apply to our feline friends, but in software engineering, curiosity is what keeps us from walking straight into that proverbial mac truck.
 
-**Efficiency Gains**
-Taking an LLM-first approach to problem identification isn't just about doing things faster (though that's definitely a nice bonus). It's about being more thorough in our discovery process. The LLM can process and analyze vast amounts of documentation, tickets, and historical data that we might otherwise skip due to time constraints. This means we're making decisions based on a more complete picture, rather than just the parts we had time to look at.
+**Taking an LLM-first approach to problem identification isn't just about doing things faster** (though that's definitely a nice bonus). It's about being more thorough in our discovery process. The LLM can process and analyze vast amounts of documentation, tickets, and historical data that we might otherwise skip due to time constraints. This means we're making decisions based on a more complete picture, rather than just the parts we had time to look at.
 
-**Better Decision Making**
 When we integrate LLMs as first-class citizens in our problem identification process, we're not just getting faster answers - we're getting more informed ones. The LLM can surface patterns and connections that might not be obvious when we're looking at information piecemeal. This helps us avoid the "oh, if we'd only known about X" moments that often pop up mid-development.
 
-**Risk Mitigation**
-By having a more comprehensive view of the problem space early on, we can identify potential risks and constraints before we've invested significant time in a particular solution. This isn't about being risk-averse - it's about being risk-aware. The LLM can help flag similar projects that ran into issues, technical constraints that might impact our approach, or dependencies we need to consider.
+**By having a more comprehensive view of the problem space early on**, we can identify potential risks and constraints before we've invested significant time in a particular solution. This isn't about being risk-averse - it's about being risk-aware. The LLM can help flag similar projects that ran into issues, technical constraints that might impact our approach, or dependencies we need to consider.
 
 The real power here isn't just in what the LLM can do - it's in how it changes our approach to problem identification. Instead of treating problem identification as a phase we need to get through to start coding, it becomes a more thorough, data-driven process that sets us up for success in the actual development phase.
 
