@@ -1,40 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Compiler Blog
 
-## Getting Started
+A personal blog built with Next.js, where I write about things that interest me, musings and other topics that I find interesting.
 
-First, run the development server:
+## 🚀 Features
+
+- **Modern Stack**: Built with Next.js 14 and TypeScript
+- **Markdown Support**: Write blog posts in Markdown with frontmatter
+- **Clean Design**: Minimalist and responsive design focused on readability
+- **Code Highlighting**: Syntax highlighting for code snippets
+- **Fast Performance**: Optimized for quick loading and smooth navigation
+
+## 🛠️ Tech Stack
+
+- [Next.js](https://nextjs.org/) - React framework for production
+- [TypeScript](https://www.typescriptlang.org/) - Type safety and better developer experience
+- [React Markdown](https://github.com/remarkjs/react-markdown) - Markdown rendering
+- [Gray Matter](https://github.com/jonschlinkert/gray-matter) - Frontmatter parsing
+- Custom styling with modern CSS
+
+## 🏃‍♂️ Getting Started
+
+1. **Clone the repository**
+
+```bash
+git clone <your-repo-url>
+cd compiler-blog
+```
+
+2. **Install dependencies**
+
+```bash
+npm install
+# or
+yarn install
+```
+
+3. **Run the development server**
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. **Open [http://localhost:3000](http://localhost:3000) with your browser**
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## 📝 Writing Posts
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Blog posts are stored in `src/posts` as Markdown files. Each post should include frontmatter with the following format:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```markdown
+---
+title: "Your Post Title"
+date: "YYYY-MM-DD"
+subtitle: "A brief description of your post"
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Your content here...
+```
 
-## Learn More
+## 📦 Available Scripts
 
-To learn more about Next.js, take a look at the following resources:
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📄 License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[MIT](LICENSE) © [Your Name]
