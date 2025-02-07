@@ -14,6 +14,12 @@ export default function Home() {
 					I find interesting.
 				</p>
 				<BlogPostCard
+					slug='building-utter-sense-week-2'
+					title='Building utter-sense: The Pivot'
+					subtitle="Making a pivot to explore browser-based audio handling while maintaining the project's practical utility"
+					publishDate='2024-02-07'
+				></BlogPostCard>
+				<BlogPostCard
 					slug='the-llm-first-sldc-part-1'
 					title='The LLM First SDLC - Part 1: A New Approach to Problem Identification'
 					subtitle='Rethinking how we find, analyze and prioritize problems to solve.'
