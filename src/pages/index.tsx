@@ -14,28 +14,34 @@ export default function Home() {
 					I find interesting.
 				</p>
 				<BlogPostCard
+					slug='english-programming-language'
+					title='English language as the next programming language?'
+					subtitle='Why natural language fails as code and what we need instead'
+					publishDate='2025-06-06'
+				></BlogPostCard>
+				<BlogPostCard
 					slug='building-utter-sense-week-2'
 					title='Building utter-sense: The Pivot'
 					subtitle="Making a pivot to explore browser-based audio handling while maintaining the project's practical utility"
-					publishDate='2024-02-07'
+					publishDate='2025-02-07'
 				></BlogPostCard>
 				<BlogPostCard
 					slug='the-llm-first-sldc-part-1'
 					title='The LLM First SDLC - Part 1: A New Approach to Problem Identification'
 					subtitle='Rethinking how we find, analyze and prioritize problems to solve.'
-					publishDate='2024-01-17'
+					publishDate='2025-01-17'
 				></BlogPostCard>
 				<BlogPostCard
 					slug='building-utter-sense-week-1'
 					title='Building utter-sense: A Week of RAG Pipeline Adventures in Salesforce'
 					subtitle='Exploring RAG pipelines & Salesforce AI Capabilities to Build a Smart Call Center Assistant'
-					publishDate='2024-01-10'
+					publishDate='2025-01-10'
 				></BlogPostCard>
 				<BlogPostCard
 					slug='the-art-of-shipping-things'
 					title='The Art of Shipping Software Projects'
 					subtitle='A guide to shipping software projects effectively'
-					publishDate='2024-01-06'
+					publishDate='2025-01-06'
 				></BlogPostCard>
 				<BlogPostCard
 					slug='react-redux-typescript'
