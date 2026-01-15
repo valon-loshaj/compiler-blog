@@ -14,6 +14,12 @@ export default function Home() {
 					I find interesting.
 				</p>
 				<BlogPostCard
+					slug='ghost-in-a-loop'
+					title='Ghost in a Loop'
+					subtitle='What is Really Happening When LLMs Think'
+					publishDate='2026-01-14'
+				></BlogPostCard>
+				<BlogPostCard
 					slug='english-programming-language'
 					title='English language as the next programming language?'
 					subtitle='Why natural language fails as code and what we need instead'
