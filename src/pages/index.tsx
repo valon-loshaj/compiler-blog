@@ -14,6 +14,12 @@ export default function Home() {
 					I find interesting.
 				</p>
 				<BlogPostCard
+					slug='clanchor-kickoff-post'
+					title='Your .claude config is drifting. And it is costing you more than you think.'
+					subtitle='How I built a package manager for Claude Code configuration'
+					publishDate='2026-04-14'
+				></BlogPostCard>
+				<BlogPostCard
 					slug='ghost-in-a-loop'
 					title='Ghost in a Loop'
 					subtitle='What is Really Happening When LLMs Think'
